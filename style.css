@@ -9,65 +9,60 @@ h1 {
 }
 
 h2 {
+    color:  #363958;
     font-family: 'Bebas Neue', cursive;
     font-weight: 500;
     font-size: 3rem;
-    color:  #363958;
-    
-
 }
 
 h5 {
+    color: #363958;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 1.5rem;
-    color: #363958;
-    
+    font-size: 1.5rem;   
 }
 
 p {
+    color: #3E3E3E;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
-    color: #3E3E3E;
 }
 .roboto-500 {
+    color: #3C3C3C;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 1rem;
-    color: #3C3C3C;
-    
 }
 
 
+/* *****************common margin top style******************* */
 
 .women-jacket , .men-jacket ,.about-us-article ,.about-us-big-img ,.penguine-slide, .contact-us{
     margin-top: 8rem;
 }
 
 
-/******************************navihgation section **********************************/
+/******************************navigation section **********************************/
 
  
 .navbar-light .navbar-nav .nav-link:hover {
-    font-size: 1.2rem;
     color :#85A019;
+    font-size: 1.2rem;
 } 
+
 /*********************** women and men jacket section*********************************/
 
 .price {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 2.25rem;
-    
-
 }
 
 /******************** card-style ****************************/
 
 .card-img {
-    background-color: #F1F1F1;
-    
+    background-color: #F1F1F1; 
 }
 
 .card-radius {
@@ -100,56 +95,43 @@ p {
 
 .dark-gray {
     color:  #363958;
-    ;
+    
 }
 
-
-
-
-/****************************** about-us-section ******************************/
+/****************************** about-us-section style******************************/
 
 .about-us-img {
     width: 4.8rem;
 }
 
-/*************************** penguine-slide-section ***************************/
+/*************************** penguine-slide-section style***************************/
 
 .carousal-text-background {
     background-color: rgba(14, 13, 13, 0.781);
 }
 
 
-/************************* contact-us-section *************************************/
+/************************* contact-us-section style*************************************/
 
 .contact-us input {
     padding: .6rem 1.6rem;
 }
 
-
 .social li {
-
-    
-
+    border: 2px solid #3C3C3C;
     list-style: none;
     padding: 10px;
-    border: 2px solid #3C3C3C;
-    width: 3.5rem;
-    
-
-    
+    width: 3.5rem;   
 }
 
 .social li a {
     display: block;
     text-decoration: none;
-
 }
 .social li a i {
     display: block;
-    text-align: center;
-    font-size: 1.5rem;
-    
-    
+    font-size: 1.5rem; 
+    text-align: center;  
 }
 
 .social li a :hover{
